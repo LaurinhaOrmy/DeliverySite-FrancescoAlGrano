@@ -1,0 +1,227 @@
+body
+{
+    margin: 0px;
+    background-color: #D8BFB3;
+}
+
+
+a:link{
+    text-decoration: none;
+    background-color: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#header{
+    background-color: #554545;
+    height: 180px;
+    width: 100%;
+}
+
+#espacamento{
+    background-color: #554545;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+}
+
+#divlogo{
+    background-color: #E4D6CF;
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+#logo{
+    margin-left: 509px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#cadastrese{
+    color: black;
+}
+
+#direita {
+    background-color: none;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 300px;
+    flex-direction: row;
+}
+
+#botoesesquerda {
+    background-color: none;
+    height: 100%;
+    width: 330px;
+    margin-left: 30px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.butaodireitaheader{
+    background-color: #554545;
+    height: 50px; 
+    width: 300px;
+    border-radius: 13px;
+    border: none;
+    font-family: "Kameron", serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.butaoesquerdaheader{
+    background-color: #554545;
+    height: 50px; 
+    width: 300px;
+    border-radius: 13px;
+    border: none;
+    font-family: "Kameron", serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#topo
+{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    
+}
+
+#bordaesquerda
+{
+    display: flex;
+    align-items: baseline;
+    width: 20%;
+}
+
+#topotexto
+{
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    font-size: 50px;
+    font-family: "Kanit", sans-serif;
+    margin-top: 200px;
+}
+
+#bordadireira
+{
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+    width: 20%;
+}
+
+#falecomagente
+{
+    font-family: "Kavoon", serif;
+}
+
+#preenchimento
+{
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#preenchimento2
+{
+    background-color: #A99186;
+    border-radius: 14px;
+    height: 500px;
+    width: 50%;
+}
+
+#email
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Kameron", serif;
+    font-size: 40px;
+}
+
+#campoemail
+{
+    border-radius: 20px;
+    background-color: gainsboro;
+    border: none;
+    width: 70%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#recado
+{
+    display: flex;
+    flex-direction: column;
+    font-family: "Kameron", serif;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#camporecado
+{
+    border-radius: 20px;
+    background-color: gainsboro;
+    border: none;
+    width: 70%;
+    height: 160px;
+    margin-top: 10px;
+}
+
+#final
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#esquerda
+{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    width: 50%;
+}
+
+#textofinal
+{
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#botaofinal
+{
+    margin-top: 40px;
+    border-radius: 14px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: #664F4F;
+    color: white;
+    font-size: 30px;
+    font-family: "Kameron", serif;
+    margin-left: 330px;
+}
+
