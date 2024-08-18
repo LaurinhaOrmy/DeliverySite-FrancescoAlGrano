@@ -194,3 +194,22 @@ main{
 .txtdeco{
     font-size: 30px;
 }
+
+#rodapé1{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    place-items: center;
+    gap: 10px;
+}
+
+#txtrodapé1{
+    color: black;
+    font-family: "Kameron", serif;
+    font-size: 40px;
+}
+
+#txtrodapé1::first-line{
+    font-family: "Kanit", sans-serif;
+}
